@@ -1,0 +1,76 @@
+@import "parts/vars";
+#__ADS_CURRENT,#__ADS_TOP{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.__ADS_PIC{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+#__ADS_TOP{
+  bottom: 100%;
+}
+.__ADS_CCC {
+  ul {
+    li {
+      cursor: pointer;
+      width: 10px;
+      height: 10px;
+      float: left;
+      list-style: none;
+      background: rgba(230, 230, 230, 0.6);
+      margin-right: 5px;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%;
+    }
+    li:last-child {
+      margin-right: 0;
+    }
+    li:hover {
+      background: @dot-color;
+    }
+    li.active {
+      background: @dot-color;
+    }
+  }
+}
+  #__ADS_CONTROLLER {
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    bottom: e("calc(110%)");
+    ul {
+      overflow: hidden;
+      display: inline-block;
+      li {
+        cursor: pointer;
+        width: 10px;
+        height: 10px;
+        float: left;
+        list-style: none;
+        background: fade(darken(@dot-color, 10%), 60%);
+        margin-right: 5px;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+      }
+      li:last-child {
+        margin-right: 0;
+      }
+      li:hover {
+        background: @dot-color;
+      }
+      li.active {
+        background: @dot-color;
+      }
+    }
+  }
+
+
+
+
+
+

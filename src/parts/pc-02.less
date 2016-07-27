@@ -1,0 +1,75 @@
+.page-container{
+  //内容块标题
+  .pt{
+    height: 73px;
+    border-bottom: 2px solid @border-color;
+    .title{
+      margin-top: 18px;
+    }
+    .extra{
+      margin-top: 40px;
+      li{
+        padding: 0 15px;
+        font-size: 12px;
+      }
+    }
+  }
+  //内容快
+  .pc{
+    .nb-shoes{
+      li{
+        a{
+          position: relative;
+          .round_img{
+            width: 81px;
+            height: 81px;
+            position: absolute;
+            top: -174px;
+            left: 83px;
+            -webkit-border-radius:50%;
+            -moz-border-radius:50%;
+            border-radius:50%;
+
+          }
+          .round_circle{
+            -webkit-transition: all 1s;
+            -moz-transition: all 1s;
+            -ms-transition: all 1s;
+            -o-transition: all 1s;
+            transition: all 1s;
+            -webkit-transform: rotateZ(360deg);
+            -moz-transform: rotateZ(360deg);
+            -ms-transform: rotateZ(360deg);
+            -o-transform: rotateZ(360deg);
+            transform: rotateZ(360deg);
+          }
+        }
+
+        width: 241px;
+        overflow: hidden;
+        border-bottom-width: 2px;
+        &:last-child{
+          border-right-color:transparent;
+        }
+      }
+    }
+  }
+  //内容底部
+  .pf{
+    .brand{
+      width: 1206px;
+      margin: 0 auto;
+      li{
+        width: 134px;
+        padding: 35px 0 20px 0;
+        text-align: center;
+        img{
+          position: relative;
+          width: 80px;
+          height: 40px;
+        }
+      }
+    }
+  }
+}
+
